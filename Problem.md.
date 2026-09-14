@@ -1,0 +1,40 @@
+START
+DECLARE name AS STRING
+DECLARE age AS INTEGER
+DECLARE marks AS REAL
+DECLARE grade AS CHARACTER
+DECLARE passed AS BOOLEAN
+SET name="Manal"
+SET age="18'
+SET marks="82.5"
+SET grade='A'
+SET passed=TRUE
+DISPLAY "Student Information"
+DISPLAY "Name:",name
+DISPLAY "Age:",age
+DISPLAY "Marks:",marks
+DISPLAY"Grade:",grade
+DISPLAY "Passed:",passed
+END
+
+
+START
+DECLARE character ch
+DISPLAY "Enter a character: "
+READ ch
+DISPLAY "The character is: "
+DISPLAY ch
+END
+
+START
+DECLARE float number
+SET number ← 123.456789
+DISPLAY number with 2 decimal places
+DISPLAY number with 4 decimal places
+DISPLAY number with 6 decimal places
+END
+
+
+
+
+
